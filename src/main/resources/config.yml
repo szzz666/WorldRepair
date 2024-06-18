@@ -1,0 +1,9 @@
+#命令
+CommandName: wr
+#显示玩家脚方块信息
+UseShowPlayerBlockInfo: true
+#中心点向个方向延申的距离（默认配置范围方块数为：300*2 * 100*2 * 300*2）
+ScopeX: 300
+ScopeY: 100
+ScopeZ: 300
+
