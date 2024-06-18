@@ -31,7 +31,7 @@ public class WrForm {
     }
 
     public static void Form0(Player player) {
-        FormWindowModal form = new FormWindowModal("§b确认", "§c将运行文件中的配置，该操作会替换世界方块，请先备份好地图！", "确认", "取消");
+        FormWindowModal form = new FormWindowModal("§b确认？", "§c将运行文件中的配置，该操作会替换世界方块，请先备份好地图！", "确认", "取消");
         form.addHandler(FormResponseHandler.withoutPlayer(ignored -> {
             if (form.wasClosed()) return;
             if (form.getResponse().getClickedButtonId() == 0) {
