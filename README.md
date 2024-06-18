@@ -1,9 +1,6 @@
 # WorldRepair
-## 修复世界中被nukkit错误解析的方块
-
-### 下载：https://github.com/szzz666/WorldRepair/releases
-
-### 配置文件内容
+### 修复世界中被nukkit错误解析的方块
+#### 配置文件内容
 config.yml
 ```yaml
 #命令
@@ -23,7 +20,7 @@ Block:
   "44:7": "44:6"
   "43:7": "43:6"
 ```
-
-### 反馈渠道
+下载：https://github.com/szzz666/WorldRepair/releases
+#### 反馈渠道
 如果遇到任何bug，请加入Q群进行反馈：
 - **Q群号码**: 894279534
